@@ -12,3 +12,10 @@ Route::get('/form', function () {
 Route::get('/welcome', function () {
     return view('welcome');
 });
+Route::get('/master', function () {
+    return view('template.master');
+});
+
+Route::get('/formula', function () {
+    return view('formula');
+});
